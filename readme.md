@@ -1,3 +1,5 @@
+<img src="image.png" />
+
 ## Para que serve isso:<br />
 
 Esse foi apenas um exercício de Javascript onde o objetivo era fazer com que a página mudasse de cor conforme a hora do dia.
