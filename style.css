@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.morning {
+  background-color: #3660b9;
+}
+
+.evening {
+  background-color: #ffa64e;
+}
+
+.night {
+  background-color: #634975;
+}
+
+.morning,
+.evening,
+.night {
+  transition: all ease 0.5s;
+}
+
+header {
+  margin-top: 50px;
+}
+
+header h1 {
+  text-align: center;
+  color: white;
+  font-family: "Roboto";
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20px;
+  background-color: white;
+  width: 600px;
+  height: 400px;
+  border-radius: 15px;
+}
+
+.container .hourJS h1 {
+  text-align: center;
+  color: black;
+  font-family: "Roboto";
+  font-size: 15px;
+}
+
+.container .explain h1 {
+  padding-top: 30px;
+  text-align: center;
+  color: black;
+  font-family: "Roboto";
+  font-size: 15px;
+}
+
+.container .explain p {
+  margin: 15px;
+  margin-top: 5px;
+  text-align: center;
+  color: black;
+  font-family: "Roboto";
+  font-size: 13px;
+}
+
+footer {
+  color: white;
+  font-family: "Roboto";
+  font-size: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
