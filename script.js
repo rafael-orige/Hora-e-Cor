@@ -4,14 +4,11 @@ function dayTime(){
     var m = date.getMinutes();
     var s = date.getSeconds();
 
-    console.log(h + ' horas, ' + m + ' minutos e ' + s + ' segundos.')
-
     if (h >= '0' && h <= '12') {
         document.getElementById('color').classList.remove('evening');
         document.getElementById('color').classList.remove('night');
         document.getElementById('color').classList.add('morning');
         document.querySelector('.hour').innerHTML = ('Agora é ' + h + ' horas, ' + m + ' minutos e ' + s + ' segundos.<br>Bom dia!')
-        console.log("Bom dia!");
     }
 
     if (h >= '13' && h < '18') {
@@ -19,7 +16,6 @@ function dayTime(){
         document.getElementById('color').classList.remove('night');
         document.getElementById('color').classList.add('evening');
         document.querySelector('.hour').innerHTML = ('Agora é ' + h + ' horas, ' + m + ' minutos e ' + s + ' segundos.<br>Boa tarde!')
-        console.log("Boa tarde!");
     }
 
     if (h >= '18' && h <= '23') {
@@ -27,7 +23,6 @@ function dayTime(){
         document.getElementById('color').classList.remove('evening');
         document.getElementById('color').classList.add('night');
         document.querySelector('.hour').innerHTML = ('Agora é ' + h + ' horas, ' + m + ' minutos e ' + s + ' segundos.<br>Boa noite!')
-        console.log("Boa noite!");
     }
 
     setTimeout(dayTime, 1000);
